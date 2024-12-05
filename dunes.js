@@ -1254,7 +1254,7 @@ program
     const fee = exampleEtchTx.inputAmount - exampleEtchTx.outputAmount;
 
     // the total doge we need per mint is the fee, the output and a safety buffer of 1.5 doge so that the change is not taken as fee
-    const totalDogeNeededPerMint = fee + 100_000 + 1.5 * 1e8;
+    const totalDogeNeededPerMint = fee + 100_000;
 
     /** BALANCE CHECK */
     console.log("Checking balance...");
