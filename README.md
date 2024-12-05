@@ -52,13 +52,13 @@ Copy a `.env.example` to `.env` and add your node information. Here are also som
 
 ```
 PROTOCOL_IDENTIFIER=D
-NODE_RPC_URL=http://<ip>:<port>
+NODE_RPC_URL=http://127.0.0.1:22555
 # This is optional if you have an RPC from getblock.io
 NODE_RPC_USER=<username>
 NODE_RPC_PASS=<password>
 TESTNET=false
-FEE_PER_KB=500000000
-ORD=https://ord.dunesprotocol.com/
+FEE_PER_KB=10000000
+ORD=https://wonky-ord-v2.dogeord.io/
 ```
 
 You can get the current fee per kb from [here](https://blockchair.com/).
